@@ -1,6 +1,6 @@
 # AWS CodePipeline CI/CD Pipeline
 
-## Project Overview
+## 🎯 Project Overview
 
 Implemented a native AWS CI/CD solution using CodePipeline, CodeBuild, Amazon ECR, and Amazon ECS.
 
@@ -8,7 +8,7 @@ The pipeline automatically detects GitHub commits, builds Docker images, pushes 
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 GitHub
 ↓
@@ -24,7 +24,19 @@ Amazon ECS
 
 ---
 
-## Key Features
+## 🛠️ Technologies Used
+
+* AWS CodePipeline
+* AWS CodeBuild
+* AWS CodeConnections
+* AWS ECS
+* AWS ECR
+* Docker
+* IAM
+
+---
+
+## ✅ Key Features
 
 * Automatic GitHub integration
 * Docker image build automation
@@ -36,7 +48,7 @@ Amazon ECS
 
 ---
 
-## Build Process
+## ⚙️ Build Process
 
 ### Source Stage
 
@@ -61,19 +73,7 @@ Pipeline:
 
 ---
 
-## Technologies Used
-
-* AWS CodePipeline
-* AWS CodeBuild
-* AWS CodeConnections
-* AWS ECS
-* AWS ECR
-* Docker
-* IAM
-
----
-
-## Results
+## 📈 Results
 
 * Fully managed AWS CI/CD
 * Automated production deployments
